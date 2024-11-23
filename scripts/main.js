@@ -1,11 +1,11 @@
 import * as THREE from 'three';
 import Stats from 'three/examples/jsm/libs/stats.module.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { World } from './world';
-import { Player } from './player';
-import { Physics } from './physics';
-import { setupUI } from './ui';
-import { ModelLoader } from './modelLoader';
+import { World } from '../scripts/world';
+import { Player } from '../scripts/player';
+import { Physics } from '../scripts/physics';
+import { setupUI } from '../scripts/ui';
+import { ModelLoader } from '../scripts/modelLoader';
 
 // UI Setup
 const stats = new Stats();
